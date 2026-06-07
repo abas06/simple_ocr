@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-a$o$vsaf5yul@!5m0e97s*p7*z$aweih=2w377*#-9zx#vaw#(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '0.0.0.0']
+ALLOWED_HOSTS = ['157.20.105.143', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -116,3 +116,4 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = '/var/www/simple_ocr/ocr_project/staticfiles'
